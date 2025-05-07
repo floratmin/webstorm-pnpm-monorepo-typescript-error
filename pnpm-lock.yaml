@@ -29,6 +29,9 @@ importers:
       bar:
         specifier: workspace:*
         version: link:../../library/bar
+      bax:
+        specifier: workspace:*
+        version: link:../../library/bax
       baz:
         specifier: workspace:*
         version: link:../../library/baz
@@ -37,6 +40,8 @@ importers:
         version: link:../../library/foo
 
   library/bar: {}
+
+  library/bax: {}
 
   library/baz: {}
 

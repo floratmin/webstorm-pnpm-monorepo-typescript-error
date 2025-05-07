@@ -5,6 +5,7 @@
     "foo": "pnpm --filter foo",
     "bar": "pnpm --filter bar",
     "baz": "pnpm --filter baz",
+    "bax": "pnpm --filter bax",
     "app": "pnpm --filter apps"
   },
   "keywords": [],

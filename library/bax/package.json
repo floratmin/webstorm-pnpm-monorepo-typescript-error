@@ -1,0 +1,10 @@
+{
+  "name": "bax",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/bax.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && vite build"
+  }
+}

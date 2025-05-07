@@ -10,6 +10,7 @@
   "dependencies": {
     "foo": "workspace:*",
     "bar": "workspace:*",
-    "baz": "workspace:*"
+    "baz": "workspace:*",
+    "bax": "workspace:*"
   }
 }
