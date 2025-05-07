@@ -1,9 +1,9 @@
-export type Foo = {
+export type Bar = {
   a: string;
   b: string;
 };
 
-export const foo: Foo = {
+export const bar: Bar = {
   a: 'foo',
   b: 'bar',
 };

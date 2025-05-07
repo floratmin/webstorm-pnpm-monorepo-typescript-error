@@ -1,0 +1,14 @@
+{
+  "name": "baz",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./baz": {
+      "types": "./dist/baz.d.ts",
+      "import": "./dist/baz.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  }
+}

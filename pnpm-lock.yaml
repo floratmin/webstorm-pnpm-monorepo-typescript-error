@@ -26,9 +26,19 @@ importers:
 
   apps/app:
     dependencies:
-      library:
+      bar:
+        specifier: workspace:*
+        version: link:../../library/bar
+      baz:
+        specifier: workspace:*
+        version: link:../../library/baz
+      foo:
         specifier: workspace:*
         version: link:../../library/foo
+
+  library/bar: {}
+
+  library/baz: {}
 
   library/foo: {}
 

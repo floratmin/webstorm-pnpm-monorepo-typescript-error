@@ -2,7 +2,9 @@
   "name": "pnpm-monorepo-typescript-error",
   "private": true,
   "scripts": {
-    "library": "pnpm --filter library",
+    "foo": "pnpm --filter foo",
+    "bar": "pnpm --filter bar",
+    "baz": "pnpm --filter baz",
     "app": "pnpm --filter apps"
   },
   "keywords": [],

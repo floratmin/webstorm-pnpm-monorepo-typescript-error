@@ -1,0 +1,16 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./bar": {
+      "import": {
+        "types": "./dist/bar.d.ts",
+        "default": "./dist/bar.js"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  }
+}

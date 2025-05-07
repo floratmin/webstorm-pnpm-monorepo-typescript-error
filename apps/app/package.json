@@ -8,6 +8,8 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "library": "workspace:*"
+    "foo": "workspace:*",
+    "bar": "workspace:*",
+    "baz": "workspace:*"
   }
 }
